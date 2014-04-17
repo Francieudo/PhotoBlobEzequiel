@@ -33,7 +33,9 @@ gem 'spring',        group: :development
  gem 'unicorn'
 
 # Use Capistrano for deployment
- gem 'capistrano-rails', '~> 2.15'
+ gem 'capistrano', '~> 2.15'
+
+gem 'net-ssh', '~> 2.8.1', :git => "https://github.com/net-ssh/net-ssh"
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]

@@ -35,6 +35,8 @@ gem 'spring',        group: :development
 # Use Capistrano for deployment
  gem 'capistrano', '~> 2.15'
 
+#gem 'net-ssh', '~> 2.8.1', :git => "https://github.com/net-ssh/net-ssh"
+gem 'net-ssh', '2.7.0'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 

@@ -8,7 +8,7 @@ set :repository, "git@github.com:Francieudo/PhotoBlobEzequiel.git"
 set :branch, "master"
 set :use_sudo, true
 
-server "138.91.112.231", :web, :app, :db, primary: true
+server "onservice.cloudapp.net", :web, :app, :db, primary: true
 
 set :deploy_to, "/home/#{user}/apps/#{application}"
 default_run_options[:pty] = true
