@@ -1,4 +1,4 @@
-equire "bundler/capistrano"
+require "bundler/capistrano"
 
 set :application, "PhotoGallery"
 set :user, "francieudo"
