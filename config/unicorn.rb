@@ -1,6 +1,6 @@
 worker_processes 2
 timeout 30
-listen "/tmp/unicorn.blob.sock"
+listen "/tmp/unicorn.blog.sock"
  
 root = "/home/francieudo/apps/PhotoGallery/current"
  
