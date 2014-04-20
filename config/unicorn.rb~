@@ -1,6 +1,6 @@
 worker_processes 2
 timeout 30
-listen "/var/run/unicorn.PhotoGallery.sock"
+listen "/var/unicorn.PhotoGallery.sock"
  
 root = "/home/francieudo/apps/PhotoGallery/current"
  
