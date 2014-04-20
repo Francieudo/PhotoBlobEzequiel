@@ -1,5 +1,5 @@
 upstream unicorn {
-server unix:var/run/unicorn.PhotoGallery.sock fail_timeout=0;
+server /var/unicorn.PhotoGallery.sock fail_timeout=0;
 }
  
 server {
